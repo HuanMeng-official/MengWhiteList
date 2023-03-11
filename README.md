@@ -1,8 +1,7 @@
 ## MengWhiteList
 
 ## 🌏支持语言/开源协议：
-
-![MIT](https://img.shields.io/badge/license-MIT-green) ![简体中文](https://img.shields.io/badge/简体中文-100%-blue) ![Java](https://img.shields.io/badge/Java-100%-orange)
+![MIT](https://img.shields.io/badge/license-MIT-green) ![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-100%25-blue) ![Java](https://img.shields.io/badge/Java-100%25-orange)
 
 ## 🤔什么是MengWhiteList？
 **MengWhiteList**是由幻梦official[^HM]开发的一款根据玩家ID判断的白名单插件。
