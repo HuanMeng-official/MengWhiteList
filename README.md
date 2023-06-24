@@ -44,8 +44,12 @@ Error: java.lang.xxx
 
 ## 🗓️免责声明：
 
-1.您对该插件进行二次修改，与我本人无关
-2.您对该插件进行盈利性买卖，我将会依法追究责任
+1.您对该插件进行二次修改，与我本人无关  
+2.您对该插件进行盈利性买卖，我将会依法追究责任  
 3.本插件不接受任何形式的赞助
+
+## 💾数据统计：
+
+![User](https://bstats.org/signatures/bukkit/MengWhiteList.svg)
 
 [^HM]: Bilibili UP主：幻梦official
