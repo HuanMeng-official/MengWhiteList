@@ -21,10 +21,10 @@
 > 没有错误日志无异于闭眼开车
 所以一定要带错误日志一同反馈  
 例如：  
-OS: Windows 10
-CPU: Intel Core i9-13900k
-Server: Spigot
-Java: Oracle Java 17.0.5
+OS: Windows 10  
+CPU: Intel Core i9-13900k  
+Server: Spigot  
+Java: Oracle Java 17.0.5  
 PluginVersion: 1.0
 
 错误日志:  
