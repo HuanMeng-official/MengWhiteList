@@ -31,8 +31,6 @@ public class JoinEvent implements Listener {
             } else {
                 login.allow();
             }
-        } else {
-            System.out.println(ChatColor.RED + "您未启用白名单，为了您的服务器安全，请开启白名单");
         }
     }
 }
