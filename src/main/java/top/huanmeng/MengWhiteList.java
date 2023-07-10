@@ -2,8 +2,7 @@ package top.huanmeng;
 
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
-import top.huanmeng.Commands.WhiteListAdd;
-import top.huanmeng.Commands.WhiteListRemove;
+import top.huanmeng.Commands.*;
 import top.huanmeng.Events.JoinEvent;
 import top.huanmeng.Tools.Metrics;
 
@@ -36,7 +35,7 @@ public final class MengWhiteList extends JavaPlugin {
         if (enable){
             getLogger().info(m + ChatColor.RESET + "功能“WhiteList”已开启");
         }else {
-            getLogger().info(m + ChatColor.RESET + "功能“WhiteList”已开启");
+            getLogger().info(m + ChatColor.RESET + "功能“WhiteList”已关闭");
         }
         getLogger().info(ChatColor.DARK_GREEN + "=========================");
     }
