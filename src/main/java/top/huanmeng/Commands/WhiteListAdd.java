@@ -32,7 +32,7 @@ public class WhiteListAdd implements CommandExecutor {
         whitelist.add(args[0]);
         config.getConfig().set("players", whitelist);
         config.saveConfig();
-        sender.sendMessage(m + ChatColor.WHITE + "已将该玩家添加入白名单");
+        sender.sendMessage(m + ChatColor.RESET + "已将该玩家添加入白名单");
         return false;
     }
 }

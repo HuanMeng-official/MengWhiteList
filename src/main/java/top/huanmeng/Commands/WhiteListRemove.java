@@ -32,12 +32,12 @@ public class WhiteListRemove implements CommandExecutor {
             whitelist.remove(args[0]);
             config.getConfig().set("players", whitelist);
             config.saveConfig();
-            sender.sendMessage(m + ChatColor.WHITE + "已取消玩家白名单");
+            sender.sendMessage(m + ChatColor.RESET + "已取消玩家白名单");
             if(remove == null){
                 return false;
             }
             if(remove.isOnline()){
-                sender.sendMessage(m + ChatColor.WHITE + "已取消玩家白名单");
+                sender.sendMessage(m + ChatColor.RESET + "已取消玩家白名单");
                 remove.kickPlayer(ChatColor.translateAlternateColorCodes('&',
                                 Objects.requireNonNull(config.getConfig().getString("tips"))
                         )
