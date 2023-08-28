@@ -1,5 +1,6 @@
 package top.huanmeng;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 import top.huanmeng.Commands.*;
@@ -7,22 +8,24 @@ import top.huanmeng.Events.JoinEvent;
 import top.huanmeng.Tools.Metrics;
 
 import java.util.Objects;
+import java.util.logging.Logger;
 
 public final class MengWhiteList extends JavaPlugin {
     public static String m = ChatColor.YELLOW + "[幻梦娘]";
+    public static Logger logger = Bukkit.getLogger();
     @Override
     public void onLoad() {
-        getLogger().info(ChatColor.DARK_RED + "MengWhiteList is loading");
+        logger.info(ChatColor.DARK_RED + "MengWhiteList is loading");
     }
 
     @Override
     public void onEnable() {
-        getLogger().info(ChatColor.DARK_GREEN + "=========================");
-        getLogger().info(ChatColor.GOLD + "__  ____       ____");
-        getLogger().info(ChatColor.GOLD + "|  \\/  \\ \\     / /| |");
-        getLogger().info(ChatColor.GOLD + "| |\\/| |\\ \\ /\\ / /| |");
-        getLogger().info(ChatColor.GOLD + "| |  | | \\ V  V / | |___");
-        getLogger().info(ChatColor.GOLD + "|_|  |_|  \\_/\\_/   |_____|");
+        logger.info(ChatColor.DARK_GREEN + "=========================");
+        logger.info(ChatColor.GOLD + "__  ____       ____");
+        logger.info(ChatColor.GOLD + "|  \\/  \\ \\     / /| |");
+        logger.info(ChatColor.GOLD + "| |\\/| |\\ \\ /\\ / /| |");
+        logger.info(ChatColor.GOLD + "| |  | | \\ V  V / | |___");
+        logger.info(ChatColor.GOLD + "|_|  |_|  \\_/\\_/   |_____|");
         int pluginId = 18850;
         Metrics metrics = new Metrics(this, pluginId);
         metrics.addCustomChart(new Metrics.SimplePie("chart_id", () -> "My value"));
@@ -33,15 +36,15 @@ public final class MengWhiteList extends JavaPlugin {
         Objects.requireNonNull(getCommand("mwl_remove")).setExecutor(new WhiteListRemove());
         boolean enable = getConfig().getBoolean("enable",true);
         if (enable){
-            getLogger().info(m + ChatColor.RESET + "功能“WhiteList”已开启");
+            logger.info(m + ChatColor.RESET + "功能“WhiteList”已开启");
         }else {
-            getLogger().info(m + ChatColor.RESET + "功能“WhiteList”已关闭");
+            logger.info(m + ChatColor.RESET + "功能“WhiteList”已关闭");
         }
-        getLogger().info(ChatColor.DARK_GREEN + "=========================");
+        logger.info(ChatColor.DARK_GREEN + "=========================");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info(ChatColor.DARK_RED + "MengWhiteList is disable");
+        logger.info(ChatColor.DARK_RED + "MengWhiteList is disable");
     }
 }
