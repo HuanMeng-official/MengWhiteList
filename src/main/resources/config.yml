@@ -1,0 +1,17 @@
+# 插件作者：幻梦official
+# 插件开源地址：https://github.com/HuanMeng-official/MengWhiteList
+
+# 白名单开关
+enable: true
+
+# 非白名单玩家进服提示
+# 符号 & 为格式化代码，https://wiki.biligame.com/mc/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81
+no-tips: "&c您并没有白名单，请联系服务器管理员"
+
+# 玩家被撤销白名单提示
+tips: "&c您因违反服务器规则被撤销了白名单"
+
+# 白名单玩家列表
+# 示例 - "HuanMeng_"
+# 强烈建议不要自己手动修改该项
+players:
