@@ -1,4 +1,4 @@
-package top.huanmeng.Commands;
+package top.huanmeng.commands;
 
 import org.jetbrains.annotations.NotNull;
 import top.huanmeng.MengWhiteList;

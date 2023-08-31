@@ -3,9 +3,9 @@ package top.huanmeng;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
-import top.huanmeng.Commands.*;
-import top.huanmeng.Events.JoinEvent;
-import top.huanmeng.Tools.Metrics;
+import top.huanmeng.commands.*;
+import top.huanmeng.events.JoinEvent;
+import top.huanmeng.tools.Metrics;
 
 import java.util.Objects;
 import java.util.logging.Logger;

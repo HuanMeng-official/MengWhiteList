@@ -1,4 +1,4 @@
-package top.huanmeng.Commands;
+package top.huanmeng.commands;
 
 import top.huanmeng.MengWhiteList;
 import org.bukkit.Bukkit;
