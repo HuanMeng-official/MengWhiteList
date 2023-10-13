@@ -5,7 +5,6 @@ import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 import top.huanmeng.commands.*;
 import top.huanmeng.events.JoinEvent;
-import top.huanmeng.tools.Metrics;
 
 import java.util.Objects;
 import java.util.logging.Logger;
@@ -26,9 +25,6 @@ public final class MengWhiteList extends JavaPlugin {
         logger.info(ChatColor.GOLD + "| |\\/| |\\ \\ /\\ / /| |");
         logger.info(ChatColor.GOLD + "| |  | | \\ V  V / | |___");
         logger.info(ChatColor.GOLD + "|_|  |_|  \\_/\\_/   |_____|");
-        int pluginId = 18850;
-        Metrics metrics = new Metrics(this, pluginId);
-        metrics.addCustomChart(new Metrics.SimplePie("chart_id", () -> "My value"));
         getConfig().options().copyDefaults(true);
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(new JoinEvent(),this);
