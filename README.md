@@ -48,8 +48,4 @@ Error: java.lang.xxx
 2.您对该插件进行盈利性买卖，我将会依法追究责任  
 3.本插件不接受任何形式的赞助
 
-## 💾数据统计：
-
-![User](https://bstats.org/signatures/bukkit/MengWhiteList.svg)
-
 [^HM]: Bilibili UP主：幻梦official
